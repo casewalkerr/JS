@@ -1,5 +1,5 @@
 const n = 3;
-let sum = 0;
+let sum = '';
 let i = '1';
 while(i<=n){
     sum+=i;
