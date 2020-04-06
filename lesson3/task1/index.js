@@ -26,8 +26,7 @@ console.log("'text' + null: ", 'text' + null);
 // Постфиксная и префиксная форма записи
 ++num;
 num++;
-console.log("++num: ", ++num);
-console.log("num++: ", num++);
+
 // математические операторы приводят операнды к числам
 const a = 17;
 const b = -a;
@@ -53,3 +52,5 @@ console.log("undefined + 1: ", undefined + 1);
 console.log("null + 8: ", null + 8);
 console.log("undefined + '5': ", undefined + '5');
 console.log("'text' + null: ", 'text' + null);
+console.log("++num: ", ++num);
+console.log("num++: ", num++);
