@@ -22,6 +22,7 @@ console.log("undefined + '5': ", undefined + '5');
 console.log("7 - null: ", 7 - null);
 console.log("5 - undefined: ", 5 - undefined);
 console.log("'text' + null: ", 'text' + null);
+
 // Постфиксная и префиксная форма записи
 ++num;
 num++;
