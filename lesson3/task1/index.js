@@ -1,6 +1,6 @@
 // Унарный плюс приводит операнд к числу
-+17;
-+'77';
++17; 
+'77';
 console.log("+17: ", +17);
 console.log("+'77': ", +'77');
 // Бинарный плюс складывает строки или прибавляет числа
@@ -24,9 +24,10 @@ console.log("5 - undefined: ", 5 - undefined);
 console.log("'text' + null: ", 'text' + null);
 
 // Постфиксная и префиксная форма записи
-++num;
-num++;
-
+'++num';
+'num++';
+console.log("++num: ", ++num);
+console.log("num++: ", num++);
 // математические операторы приводят операнды к числам
 const a = 17;
 const b = -a;
@@ -52,5 +53,3 @@ console.log("undefined + 1: ", undefined + 1);
 console.log("null + 8: ", null + 8);
 console.log("undefined + '5': ", undefined + '5');
 console.log("'text' + null: ", 'text' + null);
-console.log("++num: ", ++num);
-console.log("num++: ", num++);
