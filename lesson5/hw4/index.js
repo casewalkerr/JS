@@ -1,5 +1,5 @@
 function compareSums(a, b, c, d){
-    if(sum(a, b)> sum(c, d)){
+    if(sum(a, b) > sum(c, d)){
         return true;
     }else{
         return false;
