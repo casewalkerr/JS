@@ -10,4 +10,5 @@ function compareSums(a, b, c, d){
         for(let i = s; i <= f;i++){
             result+=i;
         }
+        return result;
     }
