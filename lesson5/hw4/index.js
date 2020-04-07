@@ -4,10 +4,10 @@ function compareSums(a, b, c, d){
     }else{
         return false;
     }
+ }   
     function sum(s, f){
         let result = 0;
         for(let i = s; i <= f;i++){
             result+=i;
         }
     }
-}
