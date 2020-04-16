@@ -3,6 +3,6 @@ function getPrimes(n){
         for(let j = 2; J <= i; J++ ){
         if(i % j === 0)
         continue nextPrime;
-    }
- } console.log(i);
+    }console.log(i);
+ } 
 }
